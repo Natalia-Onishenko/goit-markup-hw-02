@@ -44,9 +44,12 @@ font-weight: 500;
 .header-list-item:hover,.header-list-item:focus {
 color: #404bbf;
 }
+.address {
+    
+    font-style: normal;
+}
 .address ul {
     list-style: none;
-    font-style: normal;
 }
 .add {
 font-family: "Roboto",
@@ -203,7 +206,7 @@ font-weight: 400;
     
 
     }
-        .logo-footer span {
+        .span-footer {
             color: #f4f4fd;
         }
         .footer-p {
