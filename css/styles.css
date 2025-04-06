@@ -28,10 +28,10 @@ font-family: "Raleway",
 color: #2e2f42;;
 }
 
-.header-list-nav {
+.nav ul {
 list-style: none;
 }
-.header-list-item a {
+.list {
     font-family: "Roboto",
         sans-serif;
 font-weight: 500;
@@ -40,7 +40,7 @@ font-weight: 500;
     color: #2e2f42;
     text-decoration: none;
 }
-.header-list-item a:hover,.header-list-item a:focus {
+.list:hover,.list:focus {
 color: #404bbf;
 }
 .address ul {
