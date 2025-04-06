@@ -22,16 +22,17 @@ font-family: "Raleway",
             text-transform: uppercase;
             color: #4d5ae5;
             text-decoration: none;
+            list-style: none;
 
 }
 .logo span {
 color: #2e2f42;;
 }
 
-.nav ul {
+.header-list-nav {
 list-style: none;
 }
-.list {
+.header-list-item a{
     font-family: "Roboto",
         sans-serif;
 font-weight: 500;
@@ -40,7 +41,7 @@ font-weight: 500;
     color: #2e2f42;
     text-decoration: none;
 }
-.list:hover,.list:focus {
+.header-list-item a:hover,.header-list-item a:focus {
 color: #404bbf;
 }
 .address ul {
