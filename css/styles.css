@@ -32,7 +32,7 @@ color: #2e2f42;;
 .header-list-nav {
 list-style: none;
 }
-.header-list-item a{
+.header-list-item {
     font-family: "Roboto",
         sans-serif;
 font-weight: 500;
@@ -41,14 +41,14 @@ font-weight: 500;
     color: #2e2f42;
     text-decoration: none;
 }
-.header-list-item a:hover,.header-list-item a:focus {
+.header-list-item:hover,.header-list-item:focus {
 color: #404bbf;
 }
 .address ul {
     list-style: none;
     font-style: normal;
 }
-.address ul li a {
+.add {
 font-family: "Roboto",
         sans-serif;
     font-weight: 400;
@@ -57,8 +57,8 @@ font-family: "Roboto",
     color: #434455;
     text-decoration: none;
 }
-.address a:hover,
-.address a:focus {
+.add:hover,
+.add:focus {
     color: #404bbf;
 }
 .section-hero {
@@ -195,14 +195,21 @@ font-weight: 400;
         font-weight: 700;
         font-size: 18px;
     
-       
+    line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color: #f4f4fd;
+        color: #4d5ae5;
     
 
     }
         .logo-footer span {
-            color: #4d5ae5;
+            color: #f4f4fd;
+        }
+        .footer-p {
+            font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #f4f4fd;
         }
