@@ -89,7 +89,7 @@ font-family: "Roboto",
                     background-color: #404bbf;
                    }
 
-        .section-feautures ul li {
+        .section-features ul li {
         list-style: none;
     }
     
@@ -112,9 +112,12 @@ font-family: "Roboto",
 
 
     }
-    .section-team ul li {
+    .section-team {
         list-style: none;
         background-color: #F4F4FD;
+    }
+    .team {
+        background-color: #FFFFFF;
     }
  .team-h2 {
     font-family: "Roboto",
