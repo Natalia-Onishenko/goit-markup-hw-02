@@ -65,7 +65,7 @@ font-family: "Roboto",
     text-align: center;
     
 }
-.h1 {
+.hero-h {
     font-family: "Roboto",
         sans-serif;
     font-weight: 700;
@@ -112,7 +112,7 @@ font-family: "Roboto",
 
 
     }
-    .section-team {
+    .section-team ul li{
         list-style: none;
         background-color: #F4F4FD;
     }
@@ -124,7 +124,7 @@ font-family: "Roboto",
             sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
@@ -145,18 +145,36 @@ color: #434455;
     letter-spacing: 0.02em;
 }
 
+.section-portfolio ul li {
+    list-style: none;
+    background-color: #FFFFFF;
+}
+.portfolio-hh {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
+.portf-h {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
 
+.portf-p {
+font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+    
 
-    .section p {
-        font-family: "Roboto",
-            sans-serif;
-            font-weight: 400;
-                font-size: 16px;
-               
-                    letter-spacing: 0.02em;
-                    color: #434455;
-    }
     .footer {
         background-color: #2e2f42;
        font-weight: 400;
